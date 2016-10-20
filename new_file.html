@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style>
+		     .div1{width: 50px;height: 50px;}
+		     .div2{width: 200px;height: 100px;}
+		</style>
+	</head>
+	<body>
+		<ul>
+			<li><a href="http://www.baidu.com" target="_top">百度_top</a></li>
+			<li><a href="http://www.qq.com" target="_parent">qq_parent</a></li>
+			<li><a href="http://www.sina.com" target="_self">sina_self</a></li>
+			<li><a href="http://www.taobao.com" target="a">淘宝a</a></li>
+		</ul>
+		
+		<!--<iframe name="a" src="http://www.baidu.com" width="1000" height="500" frameborder="0" scrolling="no"></iframe>-->
+		
+		<span class="div1">
+			<div class="div2"></div>
+		</span>
+		
+		
+		<div class="div1">
+			
+		</div><div classs="div2"></div>
+		<script>
+			function unique(arr){
+var tmp = new Array();
+for(var i in arr){
+if(tmp.indexOf(arr[i])==-1){
+tmp.push(arr[i]);
+}
+}
+return tmp;
+}
+			var arr=[1,2,3,3,4,5,6,7];
+			console.log(unique(arr));
+			
+			
+			
+			//冒泡排序
+			function mp(arr)
+			{
+				for(var i=0;i<=arr.length;i++)
+				{
+					for(var j=i+1; j<=arr.length-1;j++)
+					{
+						if(arr[i]<=arr[j])
+						{
+							var t=arr[i];
+							arr[i]=arr[j];
+							arr[j]=t;
+							
+						}
+					}
+				}
+				return arr;
+			}
+			var arr=[1,6,7,5,8,9,6,3];
+			alert(mp(arr));
+			
+		</script>
+	</body>
+</html>

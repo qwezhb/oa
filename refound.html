@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/style.css"/>
+	</head>
+	<body style="background: #fafafa;">
+		<div class="top topindex">
+			<div class="top-main">
+				<div class="logo"></div>
+				<div class="nav">
+				<ul class="clearfix">
+					<li class="index"><a href="index.html"><span>首页</span></a></li>
+					<li><a href=""><span>考勤</span></a></li>
+					<li><a href="message.html"><span class="nav-hot">消息中心</span><i></i></a></li>
+					<li><a href=""><span>采购</span></a></li>
+					<li><a href=""><span>审批管理</span></a></li>
+				</ul>
+				<b class="current"></b>
+				</div>
+				<div class="top-info">
+					<img src="img/images/weather.jpg" class="weather" />
+					<span>杭州37℃  2015年7月30日 星期四</span>
+					<div class="head">
+						<img src="img/images/headportrait.jpg" />
+					    <i></i>
+					    <div class="head-list" style="display: none;">
+					    	<em></em>
+					    	<b class="lefts"></b>
+					    	<b class="lefts rights"></b>
+					    	<ul class="head-list-info" >
+					    		<li class="myinfo"><a href="basicInfo.html">我的资料</a></li>
+					    		<li class="pwd"><a href="">修改密码</a></li>
+					    	    <li class="person"><a href="">个人设备</a></li>
+					    		<li class="pay"><a href="refound.html">我的报销</a></li>
+					    		<li class="late"><a href="">我的考勤</a></li>
+					    		<li class="quit"><a href="">退出</a></li>
+					    	</ul>
+					    </div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="main clearFix phone refound">
+			<div class="refound-con">
+				<form>
+				<ul class="refound-list">
+					<li>&nbsp;&nbsp;&nbsp;请示领导：<span>叶志根</span></li>
+					<li>&nbsp;&nbsp;&nbsp;申请人：<span>王炸</span></li>
+					<li class="refound-type">&nbsp;&nbsp;&nbsp;报销类型：<select class="refound-se">
+						<option>车费</option>
+						<option>餐费</option>
+						<option>差率费</option>
+						<option>活动经费</option>
+					</select><span class="refound-sespan">请选择报销类型</span></li>
+					<li>发生日期：<input type="text" value="2014-11-1" readonly="readonly" class="con-bg"/></li>
+					<li>&nbsp;&nbsp;&nbsp;报销金额：<input type="text" value="30"/></li>
+					<li>上传凭证：<input type="file" class="file"/><div class="con-file"><span>选择文件</span></div>
+						<span class="con-tit">限jpg,png,格式，图片清晰，单张小于2M</span></li>
+					<li class="refound-name">收款人账号：
+						<select class="refound-sen">
+						<option>王炸</option>
+						<option>小明</option>
+						<option>小王</option>
+						<option>小红</option>
+					</select><span class="refound-sespan">请选择收款人姓名</span>
+					<img src="img/images/con_add.jpg" class="con-pay"/><h2>添加收款人账号</h2>
+					</li>
+					<li class="con-img"><img src="img/images/con1.jpg"/><img src="img/images/con1.jpg"/></li>
+					<li class="con-bz"><span>备注：</span>
+						<input type="text"/></li>
+					<li class="con-sub"><input type="submit" value="提交报销" /></li>
+				</ul>
+			
+              </form>
+			</div>
+				<div class="main-title main-refound">
+					
+					<form>
+					<!--<select class="phone-sel">
+						<option value="0">请选择部门</option>
+					</select>-->
+					<span>申请人：</span><input type="text"class="r-apply" />
+					<span>起止日期：</span><input type="text" class="r-date" value="2015-08-30" readonly="readonly"/>
+					<span>-</span><input type="text" class="r-date" value="2015-09-30" readonly="readonly"/>
+					<!--<img src="img/images/msse.jpg" class="sel"/>-->
+					<!--<input type="text" placeholder="请输入姓名/手机/职位" />-->
+					<!--<img src="img/images/msdel.jpg" class="delph" />-->
+					<input type="submit" class="phsub"  value="搜索"/>
+					</form>
+				</div>
+				<table class="phone-table refound-table">
+					<tr class="p-title r-title">
+						<td>申请人</td>
+						<td>发生日期</td>
+						<td>报销类型</td>
+						<td>数量</td>
+						<td>金额</td>
+						<td>审核状态</td>
+						<td>操作</td>
+					</tr>
+					<tr class="p-bg">
+					<td>王炸</td>
+					<td>2015/9/11</td>
+					<td>车费</td>
+					<td>1</td>
+					<td>30</td>
+					<td class="r-agreen">同意</td>
+					<td class="r-del">修改 删除</td>
+					</tr>
+					<tr>
+					<td>王炸</td>
+					<td>2015/9/11</td>
+					<td>车费</td>
+					<td>1</td>
+					<td>30</td>
+					<td class="r-agreen">同意</td>
+					<td class="r-del">修改 删除</td>
+					</tr>
+					<tr class="p-bg">
+					<td>王炸</td>
+					<td>2015/9/11</td>
+					<td>车费</td>
+					<td>1</td>
+					<td>30</td>
+					<td class="r-agreen">同意</td>
+					<td class="r-del">修改 删除</td>
+					</tr>
+					<tr>
+					<td>王炸</td>
+					<td>2015/9/11</td>
+					<td>车费</td>
+					<td>1</td>
+					<td>30</td>
+					<td class="r-agreen">同意</td>
+					<td class="r-del">修改 删除</td>
+					</tr>
+					<tr class="p-bg">
+					<td>王炸</td>
+					<td>2015/9/11</td>
+					<td>餐费</td>
+					<td>1</td>
+					<td>30</td>
+					<td>未审核</td>
+					<td class="r-del"><span>修改 </span> 删除</td>
+					</tr>
+					</tr>
+					<tr>
+					<td>王炸</td>
+					<td>2015/9/11</td>
+					<td>活动经费</td>
+					<td>1</td>
+					<td>30</td>
+					<td>未审核</td>
+					<td class="r-del"><span>修改 </span> 删除</td>
+					</tr>
+					<tr class="p-bg"> 
+					<td>王炸</td>
+					<td>2015/9/11</td>
+					<td>差旅费</td>
+					<td>1</td>
+					<td>30</td>
+					<td>未审核</td>
+					<td class="r-del"><span>修改 </span> 删除</td>
+					</tr>
+					<tr>
+					<td>王炸</td>
+					<td>2015/9/11</td>
+					<td>差旅费</td>
+					<td>1</td>
+					<td>30</td>
+					<td>未审核</td>
+					<td class="r-del"><span>修改 </span> 删除</td>
+					</tr>
+					<tr class="p-bg">
+					<td>王炸</td>
+					<td>2015/9/11</td>
+					<td>差旅费</td>
+					<td>1</td>
+					<td>30</td>
+					<td>未审核</td>
+					<td class="r-del"><span>修改 </span> 删除</td>
+					</tr>
+				</table>
+					<div class="total">合计报销金额：<span>506.2</span>元&nbsp;&nbsp;已通过：<span>480.5</span>元&nbsp;&nbsp;未通过：<span>15.7</span>元</div>
+				<ul class="pages">
+					<li class="fpage">上一页</li>
+					<li class="pageCur">1</li>
+					<li>2</li>
+					<li>3</li>
+					<li>4</li>
+					<li class="bg">...</li>
+					<li>11</li>
+					<li>12</li>
+					<li class="lpage">下一页</li>
+				</ul>
+			</div>
+				<div class="bottom">
+			杭州全速网络技术有限公司　版本　2015V1.0<br/>
+		</div>
+		<!--<script type="text/javascript" src="js/jquery.min.js" ></script>
+		<script type="text/javascript" src="js/script.js" ></script>-->
+		<script type="text/javascript">
+	var scriptNode=document.createElement("script");
+	scriptNode.setAttribute("data-main","js/index.js?v="+(new Date()));
+	scriptNode.src="js/lib/require.min.js";
+	document.body.appendChild(scriptNode);
+	</script>
+	<!--<script data-main="js/index.js" src="js/lib/require.min.js"></script>-->
+	</script>
+	</body>
+</html>
